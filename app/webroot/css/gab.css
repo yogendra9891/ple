@@ -1,0 +1,69 @@
+body {
+	font-family: Helvetica;
+}
+
+h1 {
+	text-align: center;
+}
+
+.hidden {
+	display: none
+}
+
+.button {
+	padding: 10px;
+	background-color: #ddd;
+	border: solid 1px #666;
+	font-weight: bold;
+}
+
+.button:hover {
+	background-color: #ddf;
+}
+
+#chat-area {
+	float: left;
+	height: 300px;
+}
+
+.chat-messages {
+	height: 180px;
+	border-bottom: solid 2px #ddd;
+	overflow: auto;
+}
+
+#chat-area input {
+	margin-top: 10px;
+	width: 95%;
+}
+
+.chat-name {
+	color: #c33;
+}
+
+.chat-message .me {
+	color: #33c;
+}
+
+.chat-event {
+	font-style: italic;
+	font-size: 75%;
+}
+
+.roster-contact:hover {
+	background-color: #aaa;
+	color: white;
+}
+
+.online {
+	color: #3c3;
+}
+
+.away {
+	color: #c33;
+}
+
+.offline {
+	color: #ccc;
+}
+.friends_list .slimScrollBar{background-color: #fff !important;}

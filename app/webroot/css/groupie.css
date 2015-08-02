@@ -1,0 +1,978 @@
+body,html {
+	height: 100%;
+}
+
+html body #container {
+	height: 100%;
+}
+
+html body #container #content {
+	height: 100%;
+}
+
+html body .wrapper-area {
+	height: 100%;
+}
+
+* {
+	outline: none;
+}
+
+body {
+	font-family: Helvetica;
+}
+
+h1 {
+	text-align: center;
+}
+
+.hidden {
+	display: none
+}
+
+.clear {
+	clear: both;
+}
+
+#toolbar {
+	
+}
+
+#room-name {
+	font-size: 150%;
+	font-weight: bold;
+}
+
+#room-topic {
+	font-style: italic;
+}
+
+#chat-area {
+	width: 100%;
+	float: left;
+	background-color: #fff;
+	height: 262px;
+}
+
+#chat {
+	width: 97% !important;
+	overflow: auto;
+	height: 228px !important;
+	overflow: auto;
+	padding: 5px;
+}
+
+#participants {
+	display: none;
+	height: 330px;
+	border: solid 1px #CCC;
+	overflow: auto;
+	clear: both;
+	background: #fff;
+}
+
+#participant-list {
+	color: blue;
+}
+
+#participant-list li:hover {
+	background-color: #ddf;
+	padding-left: 12px;
+}
+
+#participant-list li {
+	padding-left: 12px;
+	padding-bottom: 3px;
+	color: #33CC33;
+}
+
+.notice {
+	font-style: italic;
+	font-weight: bold;
+	color: #01325B;
+	font-size: 14px;
+}
+
+.error {
+	color: #d33;
+}
+
+.message {
+	color: #aaa;
+}
+
+.nick {
+	color: #66f;
+	text-transform: capitalize;
+}
+
+.gonline_users {
+	border-bottom: 1px red #000;
+}
+
+.self {
+	color: #f66;
+}
+
+.body {
+	color: #000;
+}
+
+.delayed {
+	opacity: 0.5;
+}
+
+.private {
+	background-color: #fdd;
+}
+
+.action {
+	color: #333;
+}
+
+#roster-area-group {
+	background-color: #fff;
+	display: none;
+	height: 330px;
+	border: solid 1px #CCC;
+	overflow: auto;
+	clear: both;
+}
+
+li {
+	list-style: none;
+}
+
+.online_users_list {
+	clear: both;
+}
+
+ul {
+	padding: 0;
+	clear: both;
+	padding-top: 0px;
+}
+
+.chat_parent {
+	background-color: #4C79AB;
+	width: 100%;
+}
+
+.add_in_group {
+	float: right;
+	margin-right: 5px;
+	padding-top: 3px;
+}
+
+#invite_button {
+	display: none;
+}
+
+#room-name {
+	font-size: 9px;
+	padding: 5px;
+	background-color: #eee;
+	color: #6C6C6C;
+	border-bottom: 1px solid #ccc;
+}
+
+.invite_button {
+	float: right;
+	width: 250px;
+}
+
+#roster-area {
+	float: right;
+	border-left: solid 2px #ddd;
+	padding-left: 10px;
+	padding-right: 27px;
+	width: 18%;
+	position: relative;
+	background-color: #01325B;
+	height: 130px !important;
+}
+
+.active_chats {
+	border: 1px solid #19283D /*2px solid #BFBBC9*/;
+	margin-top: 10px;
+}
+
+.active_chats_text {
+	background-color: #01325b /*#4C79AB*/;
+	display: block;
+	font-size: 15px;
+	font-weight: bold;
+	color: #fff;
+	padding: 10px /*3px*/;
+	position: relative;
+}
+
+.active_chats ul {
+	clear: none;
+	margin: 0;
+}
+
+.active_chats ul li {
+	padding: 5px;
+	position: relative;
+	overflow: hidden;
+}
+
+.active_chats ul li:hover {
+	background-color: #ffffff /*#BFBBC9*/;
+}
+
+.prq_icon {
+	float: right;
+	padding-right: 7px;
+	padding-top: 10px;
+}
+
+.roster-contact {
+	text-transform: capitalize;
+	clear: both;
+}
+
+/*
+*below css edit by yogi
+*/
+#roster-area-group ul { /*float: left;*/
+	margin-top: 0;
+	padding-left: 5px;
+}
+
+#roster-area-group li {
+	font-size: 15px;
+	/*float: left;*/
+}
+
+#roster-area-group p { /*float: left;*/
+	font-size: 15px;
+	line-height: 1;
+	text-transform: capitalize
+}
+
+#participants p {
+	padding-left: 5px;
+	font-size: 15px;
+}
+
+.chatdate {
+	font-size: 9px;
+	padding-left: 9px;
+}
+
+.maxchat {
+	position: relative;
+	bottom: 0;
+}
+
+.chatarea {
+	width: 100%;
+	background-color: #fff;
+	border-left: 1px solid #00233F;
+	border-right: 1px solid #00233F;
+}
+
+.mxchat {
+	width: 97%;
+	/*border: 2px solid #3C71A6;
+	background-color: #ABCDEF;*/
+	float: left;
+	color: #fff;
+	font-size: 11px;
+	text-transform: capitalize;
+	line-height: 29px;
+	padding: 3px;
+}
+
+.maxchat span:first-child {
+	float: left;
+	width: 90%;
+	word-wrap: break-word;
+}
+
+.mxwindow {
+	float: right;
+	height: 16px;
+	margin-top: 5px;
+}
+
+#smileyarea {
+	border: 1px solid;
+	bottom: 6px;
+	right: 30px;
+	position: absolute;
+	z-index: 100;
+	background: none repeat scroll 0 0 #F9F9F9;
+}
+
+#smileyarea table td:hover {
+	background-color: #DCD4D4;
+}
+
+#imoticons {
+	bottom: 37px;
+	float: right;
+	position: relative;
+	right: 12px;
+	width: 19px;
+	cursor: pointer;
+}
+
+.unread_chat {
+	background-color: #2309EE;
+	height: 23px;
+	transition: background-color .3s;
+}
+
+.message .body {
+	word-break: break-word;
+	white-space: pre-wrap;
+	word-break: break-all;
+}
+
+#act_ch_j {
+	display: none;
+}
+
+#act_ch_j_min {
+	display: none;
+}
+
+#act_ch_nj_min {
+	display: none;
+}
+
+#not_joined_activechats {
+	display: none;
+}
+
+#pend_req_min {
+	display: none;
+}
+
+#pending_request {
+	display: none;
+}
+
+#chat_requests {
+	display: none;
+}
+
+#chat_req_min {
+	display: none;
+}
+
+#chatdeny_notification {
+	display: none;
+}
+
+#chat_deny_min {
+	display: none;
+}
+
+.noresultfound {
+	padding: 9px;
+}
+
+.roster-name {
+	padding: 2px;
+	clear: both;
+	/*color:#fff;*/
+	color: #33CC33;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+.roster-name:hover {
+	color: #fff;
+}
+
+.roster-name div.roster_name {
+	width: 40px;
+	float: left;
+}
+
+#toolbar {
+	width: 100%;
+	padding: 3px 0;
+	background-color: #01325B;
+	border-bottom: 1px solid #ccc;
+	overflow: hidden;
+}
+
+#toolbar input[type="image"] {
+	padding: 0 2px 0 2px;
+}
+
+body {
+	margin: 0px;
+	background-color: #4C79AB;
+}
+
+.left-area {
+	float: left;
+	/*width:40%;*/
+	width: 100%;
+	min-width: 20%;
+}
+
+.wrapper-area { /*margin:0 auto;
+width:380px;
+padding:15px;
+background-color:#fff;*/
+	
+}
+
+.newNotif {
+	background-color: #DFE5EB;
+}
+
+.nav-counter {
+	background: #DD202F;
+	border: 1px solid #911F28;
+	border-radius: 11px 11px 11px 11px;
+	box-shadow: 0 0 1px 1px rgba(255, 255, 255, 0.1) inset, 0 1px
+		rgba(0, 0, 0, 0.12);
+	color: white;
+	font-weight: normal;
+	height: 20px;
+	line-height: 20px;
+	/*margin-top: -11px;*/
+	min-width: 8px;
+	padding: 0 6px;
+	position: absolute;
+	right: -15px;
+	top: -12px;
+	text-align: center;
+	text-shadow: 0 1px rgba(0, 0, 0, 0.2);
+}
+
+button.gobutton {
+	cursor: pointer;
+	/*forces the cursor to change to a hand when the button is hovered*/
+	padding: 5px 25px; /*add some padding to the inside of the button*/
+	background: #4C79AB; /*the colour of the button*/
+	border: 1px solid #4C79AB;
+	/*required or the default border for the browser will appear*/
+	/*give the button curved corners, alter the size as required*/
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	/*give the button a drop shadow*/
+	-webkit-box-shadow: 0 0 4px rgba(0, 0, 0, .75);
+	-moz-box-shadow: 0 0 4px rgba(0, 0, 0, .75);
+	box-shadow: 0 0 4px rgba(0, 0, 0, .75);
+	/*style the text*/
+	color: #f3f3f3;
+	font-size: 0.9em;
+	margin-right: 10px;
+	margin-top: 7px;
+	font-weight: bold;
+}
+/***NOW STYLE THE BUTTON'S HOVER AND FOCUS STATES***/
+button.gobutton:hover,button.gobutton:focus {
+	background-color: #4C79AB; /*make the background a little darker*/
+	/*reduce the drop shadow size to give a pushed button effect*/
+	-webkit-box-shadow: 0 0 1px rgba(0, 0, 0, .75);
+	-moz-box-shadow: 0 0 1px rgba(0, 0, 0, .75);
+	box-shadow: 0 0 1px rgba(0, 0, 0, .75);
+}
+
+.st-date {
+	float: left;
+}
+
+.st-hh {
+	width: 70px;
+	float: left;
+	margin-left: 5px;
+}
+
+.st-min {
+	width: 75px;
+	float: left;
+	margin-left: 5px;
+}
+
+#meetingsSaveMeetingForm .submit {
+	clear: both;
+}
+
+.select-users-div {
+	width: 100%;
+	float: left;
+}
+
+/*#meeting-form-id {
+	display: none;
+}
+*/
+#metting-email-loader {
+	display: none;
+	padding: 6px 5px;
+	float: left;
+}
+
+#meeting_success {
+	color: #367036;
+	font-size: 12px;
+	display: inline-block;
+	line-height: 29px;
+	margin-left: 1px;
+}
+
+.msg-area {
+	clear: both;
+}
+
+#ui-datepicker-div {
+	font-size: 12px;
+}
+/** chat meeting css by yogendra**/
+.chat_meetings {
+	border: 1px solid #19283D /*2px solid #BFBBC9*/;
+	margin-top: 10px;
+	background-color: #f0f0f0;
+}
+
+#meeting_area {
+	display: none;
+	/*padding: 4px;*/
+}
+
+#meeting_area ul { /*padding: 4px;*/
+	
+}
+
+.list-mettings a {
+	padding: 4px;
+	text-decoration: none;
+}
+
+.chat_meetings ul li {
+	padding: 5px;
+	overflow: auto;
+	clear: both;
+}
+
+.chat_meetings ul li:hover {
+	background-color: #fff;
+}
+
+.prq_icon_meeting {
+	float: right;
+	clear: both;
+	padding-right: 7px;
+}
+
+.meeting_title {
+	display: inline-block;
+	min-width: 85px !important;
+	float: left;
+	font-size: 14px;
+	line-height: 27px;
+}
+
+.join_meeting_area {
+	padding-right: 7px;
+	float: right;
+}
+
+.meeting-detail-area {
+	display: none;
+}
+
+.meeting-detail {
+	float: right;
+	padding-right: 7px;
+}
+
+.detail-image {
+	height: 24px;
+	width: 24px;
+}
+
+.meeting-detail-area {
+	padding-top: 5px;
+	clear: both;
+}
+
+.meeting-date {
+	color: #4C79AB;
+	float: left;
+	line-height: 27px;
+	padding-right: 4px;
+}
+/* #chatarea1{width: 0%;}
+#chatarea iframe{width: 100% !important;}
+.par_chat{width: 200px;} */
+#meeting_area {
+	min-height: 30px;
+	margin: 0;
+	padding-top: 4px;
+}
+
+#meeting_area-wrapper ul.meeting_area {
+	padding-bottom: 10px !important;
+}
+
+/*---------------------------------------------------------------------------------lalit css start-------------------------------------------------------------------------------*/
+.top-ic-block {
+	float: left;
+	width: 100%;
+}
+
+.top-ic-block h3 {
+	color: #822d47;
+	float: left;
+	font-size: 16px;
+	margin: 0;
+	padding-top: 10px;
+	width: 100%;
+}
+
+.top-ic-block ul {
+	background-color: #01325B /*#00233f#343B44*/;
+	float: left;
+	margin: 0;
+	padding: 2%;
+	width: 96%;
+	border-radius: 5px 5px 0 0;
+}
+
+.top-ic-block li {
+	float: left;
+	margin-right: 20px;
+	position: relative;
+	height: 36px;
+}
+/*.plan_meeting {display: none;}*/
+.oldNotif {
+	color: #FFFFFF;
+	font-size: 14px;
+}
+
+.friends_list {
+	background-color: #2f2f2f;
+	float: left;
+	margin: 1px 0 0;
+	width: 100%;
+}
+
+.top_cat_list {
+	border-left: 0 none !important;
+	float: left !important;
+	padding: 10px !important;
+	position: relative !important;
+	width: 95% !important;
+}
+
+.top_cat_list p {
+	color: #ffffff;
+	font-weight: bold;
+	margin: 0;
+	padding-bottom: 10px;
+	line-height: 20px;
+	text-transform: capitalize;
+}
+
+.top_cat_list .roster-name input {
+	margin-right: 8px;
+	margin-bottom: -3px;
+}
+
+.top_cat_list #plecourse-section1 li {
+	float: left;
+	padding: 2px 0;
+	width: 100%;
+}
+
+.top_cat_list ul {
+	float: left;
+	margin: 0;
+	width: 100%;
+}
+
+.top_cat_list #plecourse-section1 li {
+	clear: both;
+}
+
+.top_cat_list #plecourse-section2 li {
+	clear: both;
+}
+
+.top_cat_list #plecourse-section2 li {
+	float: left;
+	padding: 2px 0;
+	width: 100%;
+}
+
+#chatarea {
+	width: 100% !important;
+	position: relative !important;
+	float: left !important;
+	margin-top: 20px;
+}
+
+#meetingsSaveMeetingForm label {
+	width: 115px;
+	float: left;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+#meetingsSaveMeetingForm input[type="text"] {
+	width: 90px;
+}
+
+#meetingsSaveMeetingForm .select-users-div p {
+	margin: 8px 0;
+	font-weight: bold;
+	font-size: 15px;
+}
+
+#meetingsSaveMeetingForm .input {
+	margin-bottom: 10px;
+}
+
+.right-area {
+	bottom: 0;
+	float: left;
+	height: 57.5%;
+	min-height: 370px;
+	position: relative;
+	right: 0;
+	width: 100%;
+	padding-top: 20px;
+}
+
+.absolute-btm {
+	bottom: 0;
+	position: absolute;
+	right: 0;
+	width: 100%;
+}
+
+#chatarea .chatarea-inner {
+	margin-right: 12px !important;
+	width: 22%;
+	min-width: 200px;
+	height: 361px;
+	float: right !important;
+	position: relative;
+	right: 0;
+	bottom: 0;
+}
+
+.chatwindowMax.maxchat {
+	bottom: 0;
+	position: absolute;
+	width: 100%;
+	background-color: #01325B;
+}
+
+#meetingsSaveMeetingForm a.linkclass {
+	display: block;
+	float: left;
+}
+
+#meetingsSaveMeetingForm .in-users-lists {
+	margin-bottom: 5px;
+}
+
+#Nursing401-Section1 li#prem-yogendra-pc {
+	clear: both;
+}
+
+.chatarea iframe {
+	height: 361px !important;
+	width: 100% !important;
+	float: left;
+	background-color: #fff;
+}
+
+.chat-textarea {
+	width: 96%;
+	float: left;
+	padding: 5px 2% 8px;
+	height: 48px;
+	border-top: 1px solid #ccc;
+	background-color: #eeeeee;
+}
+
+#input {
+	width: 97.3%;
+	padding: 0 1%;
+	height: 46px;
+	font-size: 120%;
+	resize: none;
+	border: 1px solid #ccc;
+}
+
+.toolbar-inner {
+	float: left;
+	height: 24px;
+	padding: 3px 0;
+}
+
+.toolbar-inner2 {
+	float: right;
+	padding-top: 2px;
+}
+
+.chat-top-container {
+	height: 40%;
+	min-height: 270px;
+}
+
+#wrapper-left {
+	width: 380px;
+	padding: 15px;
+	background: #fff;
+	margin: 0 auto;
+}
+
+.active_chats .slimScrollDiv {
+	background-color: #f0f0f0;
+	font-size: 15px;
+	line-height: 20px;
+}
+
+#pending_request-wrapper .oldNotif {
+	color: #000;
+}
+
+.top_cat_list {
+	overflow-x: auto !important;
+	overflow-y: hidden !important;
+}
+
+.top_cat_list .roster-div {
+	border-left: 1px solid #FFFFFF;
+	padding: 15px;
+	min-width: 150px;
+	display: table-cell;
+	vertical-align: top;
+}
+
+.top_cat_list .roster-div:first-child {
+	border: none;
+}
+
+.chat_meetings {
+	font-size: 15px;
+	line-height: 20px;
+}
+
+#minimise {
+	margin-right: -4px;
+}
+
+.slimScrollDiv {
+	background: #f0f0f0;
+}
+
+.active_chats_text .nav-counter {
+	top: -5px;
+	right: -10px;
+}
+
+.slimScrollDiv li.crq {
+	position: relative;
+}
+
+.slimScrollDiv li.crq span:first-child {
+	float: left;
+	width: 70%;
+}
+
+.prq_icon {
+	margin: 0;
+	display: block;
+}
+
+#meeting_title {
+	width: 235px !important;
+}
+
+#participant-list {
+	text-transform: capitalize;
+}
+
+.meeting-form {
+	padding: 10px;
+	background-color: #f0f0f0;
+	font-size: 15px;
+	line-height: 20px;
+	overflow: hidden;
+}
+
+#meetingsSaveMeetingForm input[type="text"] {
+	width: 82px;
+}
+
+.select-users-div .slimScrollDiv {
+	padding: 10px;
+	margin-bottom: 10px;
+}
+
+#chatarea.chatarea-wrapper-main .chatarea-inner {
+	width: 400px !important;
+	margin: 0px auto !important;
+	float: none !important;
+}
+
+.room-name {
+	font-size: 9px;
+	padding: 5px;
+	background-color: #eee;
+	color: #6C6C6C;
+	border-bottom: 1px solid #ccc;
+}
+
+ul#pending_request li span:first-child {
+	float: left;
+	width: 70%;
+}
+
+/* .............................   abhishek's edit ..........................   */
+#wrapper-left input[type="image"],#toolbar input[type="image"] {
+	cursor: pointer;
+}
+
+a>img {
+	border: 0;
+}
+
+#chatdeny_notification li input[type="image"] {
+	position: relative;
+	left: 99px;
+	top: -7px;
+}
+
+.top-ic-block ul li input[type="image"],.active_chats input[type="image"]
+	{
+	cursor: pointer;
+} /* opera fix for pointer */
+.meeting-panel{display: none;}
+.upper-area{display: none;}
+#activeChatTab{display: none;}
+
+
+#w-chat {
+    background: none repeat scroll 0 0 #FFFFFF;
+    padding: 0 !important;
+}
+
+#chat-container-inner {
+    background: none repeat scroll 0 0 #FFFFFF;
+}
+#w-chat-inner {
+    border-radius: 4px;
+    clear: left;
+    padding: 20px;
+    padding: 14px 20px;
+}
+.chat-unavailable-wrapper{padding: 14px 20px;}

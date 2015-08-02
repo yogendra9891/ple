@@ -1,0 +1,69 @@
+.report-wrapper{font-weight: normal;background: #fff;padding: 0;float: left; width: 100%;}
+.current-online-report-wrapper{
+    background: none repeat scroll 0 0 #FFFFFF;
+    float: left;
+    font-weight: normal;
+    padding: 0;
+    width: 100%;
+}
+.current-onlinusers-lists * {
+	margin: 0;
+	padding: 0px 0px;
+}
+.selectbox-courselist{margin-left: 0px; padding: 0.8em 20px 1em 40px; float: left;}
+.selectbox-termlist{margin-left: 0px; float: left; padding: 0.8em 20px 1em 40px;}
+.selectbox-membertypelist{margin-left: 0px; float: left; padding: 0.8em 20px 1em 40px;}
+.clear{clear:both}
+.current-online-report-filter-area .inner ul{padding:0px;}
+.current-online-report-filter-area .report-date-header, .report-name {float: left;width: 16%;color: #822D47;font-weight: bold;}
+.current-online-report-filter-area .report-date {float: left;width: 16%;padding-top: 4px;}
+
+.pagination{padding: 4px 12px 4px 4px;
+text-align: right;
+background: #FFF;}
+.pagination span{padding: 3px;
+font-size: 12px;
+display: inline-block;
+border-radius: 3px;
+-moz-border-radius: 3px;
+-webkit-border-radius: 3px;
+-o-border-radius: 3px;
+border: 1px solid #CCC;
+cursor: pointer;
+margin-right: 3px;}
+.pagination span.current{background: #4C79AB;
+color: #FFF;}
+a.sorting-direction-desc {
+	background: url("../img/sort_desc.png") no-repeat scroll right
+		rgba(0, 0, 0, 0);
+	padding-right: 12px;
+}
+a.sorting-direction-asc {
+	background: url("../img/sort_asc.png") no-repeat scroll right
+		rgba(0, 0, 0, 0);
+	padding-right: 12px;
+}
+.chat-session-report-wrapper{font-weight: normal;background: #fff;padding: 0;float: left; width: 100%;}
+.chat-session-report-wrapper .report-date-header, .report-name {float: left;width: 14% !important;color: #822D47;font-weight: bold;}
+.chat-session-report-wrapper .report-date {float: left;width: 14% !important; padding-top: 4px;}
+
+.active-session-report-wrapper{font-weight: normal;background: #fff;padding: 0;float: left; width: 100%;}
+.active-session-report-wrapper .report-date-header, .report-name {float: left;width: 14% !important;color: #822D47;font-weight: bold;}
+.active-session-report-wrapper .report-date {float: left;width: 14% !important; padding-top: 4px;}
+
+.notification-reminder-session-report-wrapper{font-weight: normal;background: #fff;padding: 0;float: left; width: 100%;}
+.notification-reminder-session-report-wrapper .report-date-header, .report-name {float: left;width: 14% !important;color: #822D47;font-weight: bold;}
+.notification-reminder-session-report-wrapper .report-date {float: left;width: 14% !important; padding-top: 4px;}
+/** Abhishek **/
+#dateonly, #datetime, #daterange{display:none}
+.clear{clear:both}
+.inner ul{padding:0px;}
+.report-date-header, .report-name {float: left;width: 16%;color: #822D47;font-weight: bold;}
+.report-date {float: left;width: 16%;padding-top: 4px;}
+
+.meeting-report .report-date-header, .report-name {float: left;width: 12%;color: #822D47;font-weight: bold;}
+
+.meeting-report .report-date {float: left;width: 12%;padding-top: 4px;}
+
+.community-setting .report-date-header, .report-name {float: left;width: 14%;color: #822D47;font-weight: bold;}
+.community-setting .report-date {float: left;width: 14%;padding-top: 4px;}

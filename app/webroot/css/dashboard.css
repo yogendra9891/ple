@@ -1,0 +1,761 @@
+body {
+	background-color: #4C79AB;
+}
+
+.online-settings {
+	clear: both;
+}
+
+li {
+	list-style: none;
+}
+
+a.trigger {
+    background-image: url("../img/plus.gif");
+    background-position: 7px center;
+    background-repeat: no-repeat;
+    display: block;
+    font-size: 15px;
+    font-weight: 700;
+    padding-left: 31px;
+}
+
+a.trigger.open {
+	background-image: url(../img/minus.gif);
+}
+
+p {
+	margin: 0 10px 1em
+}
+
+.strong {
+	font-weight: 700
+}
+
+.clear {
+	clear: both
+}
+
+img {
+	border: 0 none
+}
+
+.contentpage_list * {
+	margin: 0;
+	padding: 0
+}
+
+.posts-lists * {
+	margin: 0;
+	padding: 0px 0px;
+}
+
+.online-settings * {
+	margin: 0;
+	padding: 0px 0px;
+}
+
+.reminder-settings * {
+	margin: 0;
+	padding: 0px 0px;
+}
+
+.assignment-area * {
+	margin: 0;
+	padding: 0px 0px;
+}
+
+.forum-settings * {
+	margin: 0;
+	padding: 0px 0px;
+}
+
+.online-settings {
+	margin-top: 3px;
+	margin-bottom: 3px;
+}
+
+.forum-settings {
+	margin-top: 3px;
+	margin-bottom: 3px;
+}
+
+.assignment-area {
+	margin-top: 3px;
+	margin-bottom: 3px;
+}
+
+.assignment-area {
+	margin-top: 3px;
+	margin-bottom: 3px;
+}
+
+.reminder-settings {
+	margin-top: 3px;
+	margin-bottom: 3px;
+}
+/* --- Links --- */
+a {
+	padding: 1px;
+	color: #05b
+}
+
+a:hover,a:focus,a:active {
+	text-decoration: none;
+	outline: 0 none
+}
+/* --- Accordion --- */
+.js .accordion {
+	visibility: hidden
+}
+
+.accordion {
+	margin: 0;
+	padding: 0 10px
+}
+
+.accordion li {
+	list-style-type: none
+}
+
+.accordion li.last-child {
+	margin-left: 19px;
+	list-style-type: disc
+}
+
+.accordion .outer {
+	border: 1px solid #dadada;
+	border-width: 0 1px 1px;
+	background-color: #F0F0F0;
+}
+
+.accordion .inner {
+	margin-bottom: 0;
+	padding: .5em 20px 1em;
+	position: relative;
+	overflow: hidden;
+	/*border: 1px solid #19283D;*/
+}
+
+.accordion .inner .inner {
+	padding-bottom: 0
+}
+
+.accordion .h {
+	padding-top: .3em
+} /* vertical padding instead of vertical margin (ie8) */
+.accordion p {
+	margin: .5em 1px 1em
+}
+/*  
+  Add styles for all links in the 'accordion':
+*/
+.last-child a.trigger {
+	padding-left: 1px;
+	background-image: none;
+	font-weight: normal
+}
+
+a.trigger {
+	background-color: #01325B;
+	text-decoration: none;
+	color: #fff;
+	border: 2px solid #01325B;
+	padding-bottom: 5px;
+	padding-top: 5px;
+}
+
+#ui-datepicker-div {
+	font-size: 12px;
+}
+input.gobutton {
+    background: none repeat scroll 0 0 #4C79AB;
+    border: 1px solid #4C79AB;
+    border-radius: 10px 10px 10px 10px;
+    color: #F3F3F3;
+    cursor: pointer;
+    font-size: 1.1em;
+    font-weight: bold;
+    margin-right: 10px;
+    margin-top: 7px;
+    opacity: 1;
+    padding: 5px 25px;
+}
+.forum-settings .submit input.gobutton {
+    border-radius: 6px 6px 6px 6px;
+}
+.forum-settings input[type="submit"] {
+    border-radius: 6px 6px 6px 6px;
+    box-shadow: none;
+    font-size: 14px;
+    padding: 5px 20px;
+}
+.contentpage_list .submit input.gobutton {
+    border-radius: 6px 6px 6px 6px;
+}
+.contentpage_list input[type="submit"] {
+    border-radius: 6px 6px 6px 6px;
+    box-shadow: none;
+    font-size: 14px;
+    padding: 5px 20px;
+}
+.contentpage_list .inner .submit .gobutton{margin-bottom: 4px;}
+.online-settings input[type="submit"] {
+    border-radius: 6px 6px 6px 6px;
+    box-shadow: none;
+    font-size: 14px;
+    padding: 5px 20px;
+}
+.online-settings .submit input.gobutton {
+    border-radius: 6px 6px 6px 6px;
+}
+.reminder-settings .submit input.gobutton {
+    border-radius: 6px 6px 6px 6px;
+}
+.reminder-settings input[type="submit"] {
+    border-radius: 6px 6px 6px 6px;
+    box-shadow: none;
+    font-size: 14px;
+    padding: 5px 20px;
+}
+/*
+ *new css
+ */
+.post_available_area .st-date{padding: 3px;}
+.post_available_area .st-date label{padding-right: 5px;}
+.post_available_area .end-date{padding: 3px;}
+.post_available_area .end-date label{padding-right: 5px;}
+
+.reply_available_area .rst-date{padding: 3px;}
+.reply_available_area .rst-date label{padding: 3px;}
+.reply_available_area .rend-date{padding: 3px;}
+.reply_available_area .rend-date label{padding: 3px;}
+
+.read_available_area .rrst-date{padding: 3px;}
+.read_available_area .rrst-date label{padding: 3px;}
+.read_available_area .rrend-date{padding: 3px;}
+.read_available_area .rrend-date label{padding: 3px;}
+
+.clearable{
+  background:url('../img/cross_date.png') no-repeat right -10px center rgba(255, 255, 255, 255);
+  /*border:1px solid #999;*/
+  /*padding:3px 18px 3px 4px;  USE the same right padding in jQ! */
+  /*border-radius:3px;*/
+  transition: background 0.0s;
+}
+.clearable.x{
+  background-position: right 5px center;
+}
+.clearable.onX{
+  cursor:pointer;
+}
+.backButton{ float:right; margin-top:5px; margin-right:10px; color: #fff;}
+.backButton a{color: #FFF;}
+.setting .inner ul{padding: 0px !important;}
+.setting .accordion{padding: 0px !important; width: 110px !important;}
+.setting h4 {margin-bottom: 0px !important;}
+.setting .accordion .inner ul li {padding-bottom: 8px !important;}
+
+.setting a.trigger {
+    background-image: url("../img/plus.gif");
+    background-position: 0px center;
+    background-repeat: no-repeat;
+    display: block;
+    font-size: 15px;
+    font-weight: 700;
+    padding-left: 17px;
+    background-color: #4C79AB;
+	text-decoration: underline;
+	color: #0055BB;
+	border: none;
+	padding-bottom: 5px;
+}
+.setting .accordion .h{padding-top: 0px;}
+.setting a.trigger.open {
+	background-image: url(../img/minus.gif);
+}
+.uread{  margin-left:10px;}
+#comments{ margin-bottom:20px; }
+#oduemail { display:none; }
+#feedreader { display:none; }
+#facebooks { display:none; }
+#twitters { display:none; }
+.activelink { color:red; clear:both;}
+.reminder_link{ display: block; margin-bottom: 14px; }
+.backButton .submit { float:left; }
+.backButton a { line-height:40px; text-decoration:none; font-size:15px; }
+.gobutton_outer {
+    background: none repeat scroll 0 0 #4C79AB;
+    border: 1px solid #4C79AB;
+    border-radius: 6px;
+    color: #F3F3F3;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    margin-right: 10px;
+    margin-top: 9px;
+    opacity: 1;
+    padding: 5px 25px;
+}
+}
+.asst-name{float:left; width:200px; color:#822D47; font-weight:bold}
+.asst-name-header {float:left; width:200px; color:#822D47; font-weight:bold;}
+.asst-date{float:left; width:20%; padding-top:4px;}
+.asst-date-header, .asst-name{float:left; width:20%;color:#822D47; font-weight:bold}
+#asst-acc li li{ clear:both; padding:10px; text-transform: capitalize; height:11px;}
+#asst-acc li li a.editField {background: url('../img/editIcon.png') no-repeat center;
+display: inline-block;
+width: 20px;
+height: 20px;
+text-indent: -99999px;
+position:relative;
+top:-5px;
+}
+/*#asst-acc li li:hover{ clear:both; padding:10px; text-transform: capitalize; height:11px}*/
+.asst-img{ padding-right: 5px; position:relative; top:4px;}
+.asst-chkbox{float:left;width:25%; text-align:center;color:#822D47;}
+.asst-set{float:left; width:60%;}
+.reminder-due p {margin:0; text-align:center; color:#822D47; font-weight:bold; padding-bottom:10px;}
+.asst-calender-header{float:left; width:25%; color:#822D47; text-align:center; text-transform: none;}
+.asst-calender{float:left; width:25%; color:#000; text-align:center; text-transform: none; position:relative;}
+.reminder-date {position:absolute; top:-2px; left:50%; margin-left:-50px;}
+.reminder-date input {font-size:15px; margin-right:5px;}
+.reminder-date img {position:relative; top:2px;}
+.asst-name a{ padding-left:5px; font-size:9px;}
+.asst-name a:hover { padding-left:5px; font-size:9px; color:red;}
+.asst-reminder-type{float:left; width:200px;}
+.forum-radio {margin-left:16px;}
+.asst-reminder-type-header{float:left; width:200px;color:#822D47; font-weight:bold}
+.message {
+	background: none repeat scroll 0 0 #CECECE;
+	font-size: 14px;
+	margin: 0 auto;
+	padding: 5px;
+	text-align: center;
+	width: 50%;
+	border: 1px solid;
+	padding: 15px 10px;
+	background-repeat: no-repeat;
+	background-position: 10px center;
+	-moz-border-radius: .5em;
+	-webkit-border-radius: .5em;
+	border-radius: .5em;
+	color: #4F8A10;
+	background-color: #DFF2BF;
+	line-height: 4px;
+	margin-bottom: 10px;
+}
+
+.active-pages{float: left; margin-right: 10px;}
+#active-forum-area{margin-bottom: 20px;}
+.wrapper-whatsnew input[type="submit"] {
+    border-radius: 6px;
+    box-shadow: none;
+    font-size: 14px;
+    padding: 5px 20px;
+}
+.open-class-ckkbox{ display:none; }
+.reminder-date{ display:none}
+.radiobox-recentposts{padding-top: 10px;}
+.input-whatsnew-radio input{margin-right: 4px;}
+.input-whatsnew-radio{padding-top: 3px;}
+.fb-authen {
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+.twtclass {padding:0 10px 10px 10px;}
+.fbclass {padding:0 10px 10px;}
+.twt-inner{ float:left; }
+ .inputs  { 
+padding: 6px; 
+border-radius: 3px; 
+border: 1px solid #CCC; 
+background-image: none; 
+width:270px;
+margin-left:8px;
+} 
+ .inputs:focus { 
+outline-color: #54B4AD; 
+}
+.feedclass-inner{float: left; display: none; width: 100%;  padding: 10px;}
+.emailclass-inner{float: left ;padding:0 10px;}
+.feed-notify-message{display: none;}
+
+/**save button**/
+#container {
+	font-size:15px;
+	font-family:Helvetica;
+	min-width:400px;
+}
+
+/**community setting **/
+.community-setting-wrapper {
+	background: none repeat scroll 0 0 #FFFFFF;
+    float: left;
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+.online-settings h3 {
+	color:#01325B;
+	margin:0 0 0 11px;
+}
+.online-settings span.course-name {
+	color:#01325B;
+	padding:5px 0;
+	display:block;
+	font-weight:bold;
+	margin:0 0 0 11px;
+}
+.forum-settings .inner ul, .online-settings .inner ul {
+	margin:0 0 0 15px;
+}
+.forum-settings .inner ul li, .online-settings .inner ul li {
+	line-height:25px;
+}
+.forum-settings .inner ul li label, .online-settings .inner ul li label {
+	margin:0 0 0 10px;
+}
+.forum-settings .inner .submit input, .online-settings .inner .submit input {
+	float:right;
+	background:#4C79AB;
+    border-radius: 6px;
+    color: #fff;
+    cursor: pointer;
+    padding: 5px 25px;
+}
+/**community setting **/
+#online-msg{
+	margin:0 0 0 37px;
+}
+/**Notifications Settings **/
+.reminder-settings {
+	background: none repeat scroll 0 0 #FFFFFF;
+    float: left;
+    font-weight: normal;
+    padding: 0;
+    width: 100%;
+	margin:0;
+}
+.reminder-settings h3 {
+	color:#01325B;
+	margin:0 0 0 11px;
+	padding:10px 0;
+}
+.reminder-settings .outer .inner {
+	padding:0;
+}
+.reminder-settings .outer .inner ul li:nth-child(even) {
+	background:#ebebeb;
+	padding:1em 20px;
+	float:left;
+	width:100%;
+}
+.reminder-settings .outer .inner ul li:nth-child(odd) {
+	background:#fff;
+	padding:1em 20px;
+	float:left;
+	width:100%;
+}
+
+#feed-reader-assignment-label {float:left;}
+.twt-follow span {
+	float:left;
+}
+/**email**/
+.reminder-settings .outer .inner ul li #oduemail_disable .input label {
+	margin:0 0 0 10px;
+}
+.reminder-settings .outer .inner ul li #oduemail_disable .input {
+	float:left;
+}
+.reminder-settings .outer .inner ul li #oduemail_disable .user-email-email-setting {
+	float:left;
+	margin:0 0 0 10px;
+}
+.reminder-settings .outer .inner ul li #oduemail .input label {
+	margin:0 0 0 10px;
+}
+.reminder-settings .outer .inner ul li #oduemail .email-notify-message {
+	margin:10px 0 0 23px;
+	clear:both;
+	float:left;
+	font-size:13px;
+}
+.reminder-settings .outer .inner ul li #oduemail #emailclass-inner {
+	/*margin:0 0 0 13px;*/
+}
+/**email**/
+/**twitter*/
+.reminder-settings .outer .inner ul li #twitter_disable .input label {
+	margin:0 0 0 10px;
+}
+.reminder-settings .outer .inner ul li #twitter_disable .input {
+	float:left;
+}
+.reminder-settings .outer .inner ul li #twitter_disable .user-twitter-twitter-setting {
+	float:left;
+	margin:0 0 0 10px;
+}
+.reminder-settings .outer .inner ul li #twitters .input label {
+	margin:0 0 0 10px;
+}
+.reminder-settings .outer .inner ul li #twitters .twitter-notify-message {
+	margin:5px 0 0 23px;
+	font-size:13px;
+}
+.reminder-settings .outer .inner ul li #twitters .twt-inner {
+	/**margin:0 0 0 13px;**/
+}
+.reminder-settings .outer .inner ul li #twitters .twtclass a#twitter-login {
+	clear:none;
+	display:inline-block;
+	margin:0 0 0 10px;
+	position:relative;
+	top:3px;
+}
+/**twitter*/
+/**facebook*/
+.reminder-settings .outer .inner ul li #facebook_disable .input label {
+	margin:0 0 0 10px;
+}
+.reminder-settings .outer .inner ul li #facebook_disable .input {
+	float:left;
+}
+.reminder-settings .outer .inner ul li #facebook_disable .user-facebook-facebook-setting {
+	float:left;
+	margin:0 0 0 10px;
+}
+.reminder-settings .outer .inner ul li #facebooks .input label {
+	margin:0 0 0 10px;
+	font-size:13px;
+}
+.reminder-settings .outer .inner ul li #facebooks .facebook-notify-message {
+	margin:5px 0 0 23px;
+	font-size:13px;
+}
+.reminder-settings .outer .inner ul li #facebooks .fb-authen {
+	margin:0 0 0 23px;
+}
+.reminder-settings .outer .inner ul li #facebooks .twt-inner {
+	/*margin:0 0 0 14px;*/
+}
+.reminder-settings .outer .inner ul li #facebooks .fbclass a#facebook-login {
+	clear:none;
+	display:inline-block;
+	margin:0 0 0 10px;
+	position:relative;
+	top:3px;
+}
+/**facebook*/
+/**feedreader*/
+.reminder-settings .outer .inner ul li #feedreader_disable .input label {
+	margin:0 0 0 0;
+}
+
+.reminder-settings .outer .inner ul li #feedreader_disable, .reminder-settings .outer .inner ul li #feedreader_assignment_disable {padding-left:23px;}
+.reminder-settings .outer .inner ul li #feedreader_disable .input, .reminder-settings .outer .inner ul li #feedreader_assignment_disable .input {
+	float:left;
+}
+
+
+.reminder-settings .outer .inner ul li #feedreader_disable #feed-reader-label, .reminder-settings .outer .inner ul li #feedreader_assignment_disable #feed-reader-assignment-label {
+	float:left;
+	margin:0 0 0 10px;
+}
+.reminder-settings .outer .inner ul li #feed-reader {
+	margin:0 0 0 13px;
+}
+.reminder-settings .outer .inner ul li .feed-notify-message {
+	clear: both;
+    float: left;
+    margin: 5px 0 0 22px;
+}
+/**feedreader*/
+.reminder-settings .outer .inner ul li a.reminder_link {
+	background: url("../img/editpost2.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    color: #01325B;
+    float: left;
+    height: 17px;
+    margin: 2px 0 0 10px;
+    text-indent: -9999px;
+    width: 17px;
+}
+.reminder-settings .outer .inner ul li a#feedreader_link {
+	background: url("../img/copy.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    color: #01325B;
+    float: left;
+    height: 22px;
+    margin: 2px 0 0 10px;
+    text-indent: -9999px;
+    width: 22px;
+}
+.reminder-settings .outer .inner ul li a:hover {
+	text-decoration:underline;
+}
+.reminder-settings .backButton a {
+    font-family:iHelvetica;
+    
+	line-height:45px;
+}
+	
+/**Notifications Settings **/
+
+/**what's new page **/
+.wrapper-whatsnew {
+	font-weight:normal;
+	background:#fff;
+	padding:0;
+	float:left;
+	width:100%;
+}
+.wrapper-whatsnew .posts-lists .selectbox select.uread {
+	width:40px;
+}
+.backButton {
+	margin:8px 5px 0;
+}
+
+.wrapper-whatsnew > a { display:inline-block; padding:15px;}
+
+.wrapper-whatsnew .backButton a {
+    font-family:iHelvetica;
+    margin: inherit;
+	line-height:45px;
+}
+#w-ques-post ul li .outer .inner, .assignment-area ul li .outer .inner {
+	padding:0;
+}
+#comments {
+	margin:0;
+}
+ul#comments li {
+	padding:0.6em 20px;
+	border-bottom:1px solid #d1d1d1;
+}
+ul#comments li a {
+	color:#000;
+	text-decoration:none;
+}
+ul#comments li a:hover {
+	text-decoration:underline;
+}
+ul#comments li span.reply-head {
+	background:url("../img/reply.png") no-repeat;
+	width:18px;
+	height:12px;
+	text-indent:-9999px;
+	display:inline-block;
+	float:left;
+	padding:0 7px 0 0;
+	margin:4px 0 0 0;
+}
+ul#comments li span.question-head {
+	background:url("../img/question.png") no-repeat;
+	width:17px;
+	height:17px;
+	text-indent:-9999px;
+	display:inline-block;
+	float:left;
+	padding:0 7px 0 0;
+	margin:1px 0 0 0;
+}
+ul#comments li span.assignment-head {
+	background:url("../img/asst.png") no-repeat;
+	width:17px;
+	height:24px;
+	text-indent:-9999px;
+	display:inline-block;
+	float:left;
+	padding:0 7px 0 0;
+	margin:1px 0 0 0;
+}
+/*ul#comments li:nth-child(even) {
+	background:#ebebeb;
+	padding:0.5em 20px 1em;
+}
+ul#comments li:nth-child(odd) {
+	background:#fff;
+	padding:0.5em 20px 1em;
+}*/
+ul#active-forum-area li {
+	padding:0.6em 20px;
+	border-bottom:1px solid #d1d1d1;
+	box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	background:#F0F0F0;
+}
+ul#active-forum-area li a {
+	color:#000;
+	text-decoration:none;
+}
+ul#active-forum-area li a:hover {
+	text-decoration:underline;
+}
+ul#active-forum-area li span.contentpage-head {
+	background:url("../img/page.png") no-repeat;
+	width:18px;
+	height:19px;
+	text-indent:-9999px;
+	display:inline-block;
+	float:left;
+	padding:0 7px 0 0;
+}
+.selectbox {
+	padding:0.8em 20px 0;
+	float:left;
+}
+.radiobox-recentposts {
+	padding:0.6em 20px 1em 40px;
+	margin-left:100px;
+	
+}
+.posts-lists h3 {
+	margin:0 0 0 11px;
+	color:#01325B;
+}
+/**what's new page **/
+
+/**3/6/2014   **/
+.email-notif { float:left; margin:8px 0 0 0; font-size:13px;}
+.twt-follow { margin:10px 0 0 13px; }
+
+.reminder-settings span.course-name {
+   color: #01325B;
+   display: block;
+   font-weight: bold;
+   padding: 5px 0;
+   margin: 0 0 0 11px;
+}
+.posts-lists span.course-name {
+   color: #01325B;
+   display: block;
+   font-weight: bold;
+   padding: 5px 0;
+}
+.feed_notf {
+	display:none;
+}
+.errmsg {display:none; text-align:center;}
+a.trigger.open {
+	background-image:url("../img/min-ac.png");
+}
+a.trigger {
+	background-image:url("../img/plus-ac.png");
+}
+.assignment-rmnd-setting { height:auto !important ; }
+.reminder-settings .outer .inner ul li a#feedreader_link_assignments{
+    background: url("../img/copy.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    color: #01325B;
+    float: left;
+    height: 22px;
+    margin: 2px 0 0 10px;
+    text-indent: -9999px;
+    width: 22px;}
+    
+.post_start_date_wrraper_input{display: none;}
+.post_end_date_wrraper_input{display: none;}
+.reply_date_wrraper_input{display: none;}
+.read_date_wrraper_input{display: none;}

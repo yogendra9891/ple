@@ -1,0 +1,2 @@
+1487659039
+a:3:{s:9:"groupName";a:4:{s:4:"type";s:6:"string";s:4:"null";b:0;s:7:"default";N;s:6:"length";d:50;}s:8:"username";a:4:{s:4:"type";s:6:"string";s:4:"null";b:0;s:7:"default";N;s:6:"length";d:100;}s:13:"administrator";a:4:{s:4:"type";s:7:"integer";s:4:"null";b:0;s:7:"default";N;s:6:"length";s:1:"4";}}

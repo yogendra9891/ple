@@ -1,0 +1,153 @@
+.treeview, .treeview ul { 
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	background:#FFF;
+}
+
+.treeview ul {
+	background-color: white;
+	/*margin-top: 4px;*/
+}
+
+.treeview .hitarea {
+	background: url(../img/treeview-default.gif) -64px -25px no-repeat;
+	height: 16px;
+	width: 16px;
+	margin-left: -16px;
+	float: left;
+	cursor: pointer;
+	position:relative;
+	top:8px;
+}
+/* fix for IE6 */
+* html .hitarea {
+	display: inline;
+	float:none;
+}
+
+.treeview li { 
+	margin: 0;
+	padding: 0px 0pt 0px 16px;
+}
+
+.treeview a.selected {
+	background-color: #eee;
+}
+
+#treecontrol { margin: 1em 0; display: none; }
+
+.treeview .hover { color: red; cursor: pointer; }
+
+.treeview li { background: url(../img/treeview-default-line.gif) no-repeat; position:relative; }
+.treeview li.collapsable, .treeview li.expandable { background-position: 0 -171px; }
+
+.treeview .expandable-hitarea { background-position: -80px -3px; }
+
+.treeview li.last { background-position: 0 -1766px }
+.treeview li.lastCollapsable, .treeview li.lastExpandable { background-image: url(../img/treeview-default.gif); }  
+.treeview li.lastCollapsable { background-position: 0 -111px }
+.treeview li.lastExpandable { background-position: -32px -67px }
+
+.treeview div.lastCollapsable-hitarea, .treeview div.lastExpandable-hitarea { background-position: 0; }
+
+.treeview-red li { background-image: url(../img/treeview-red-line.gif); }
+.treeview-red .hitarea, .treeview-red li.lastCollapsable, .treeview-red li.lastExpandable { background-image: url(../img/treeview-red.gif); } 
+
+.treeview-black li { background-image: url(../img/treeview-black-line.gif); }
+.treeview-black .hitarea, .treeview-black li.lastCollapsable, .treeview-black li.lastExpandable { background-image: url(../img/treeview-black.gif); }  
+
+.treeview-gray li { background-image: url(../img/treeview-gray-line.gif); }
+.treeview-gray .hitarea, .treeview-gray li.lastCollapsable, .treeview-gray li.lastExpandable { background-image: url(../img/treeview-gray.gif); } 
+
+.treeview-famfamfam li { background-image: url(../img/treeview-famfamfam-line.gif); }
+.treeview-famfamfam .hitarea, .treeview-famfamfam li.lastCollapsable, .treeview-famfamfam li.lastExpandable { background-image: url(../img/treeview-famfamfam.gif); } 
+
+.treeview .placeholder {
+	background: url(../img/ajax-loader.gif) 0 0 no-repeat;
+	height: 16px;
+	width: 16px;
+	display: block;
+}
+
+.filetree li { padding: 3px 0 2px 16px; }
+.filetree span.folder, .filetree span.file { padding: 1px 0 1px 16px; display: block; }
+.filetree span.folder { background: url(../img/folder.gif) 0 0 no-repeat; }
+.filetree li.expandable span.folder { background: url(../img/folder-closed.gif) 0 0 no-repeat; }
+.filetree span.file { background: url(../img/file.gif) 0 0 no-repeat; }
+
+.clear {clear:both;}
+#banner { padding: 15px; background-color: #06b; color: white; font-size: large; border-bottom: 1px solid #ccc;
+    background: url(bg.gif) repeat-x; text-align: center }
+#banner a { color: white; }
+
+#main { padding: 1em; }
+
+a img { border: none; }
+#sidetreecontrol { background:#FFF; margin-left:-20px;} 
+#sidetreecontrol a {color:#000; text-decoration:none; padding-left:22px; display:inline-block; padding-left:34px!important; line-height:20px;}
+#sidetreecontrol a:nth-of-type(1) {background:url('../img/collapse.png') no-repeat left; margin-right:10px;}
+#sidetreecontrol a:nth-of-type(2) {background:url('../img/expand.png') no-repeat left;}
+#sidetree #savecontent-askquestion {background:#FFF; padding-right:16px;}
+
+ul.treeview li a.editdatesetting, ul.treeview li ul li .toAbsolute a {background:url('../img/editIcon.png') no-repeat center; display:inline-block; width:20px; height:20px; text-indent:-99999px;}
+ul.treeview li.forHeadings {background:none!important;}
+ul.treeview li.forHeadings .content {}
+.post1 h3, .replies1 h3, .readOnly1 h3 {text-align:center; color:#822D47; font-size:16px;}
+div.folder .content a {padding-left:17px;}
+div.folder .content, .folder1 .content {}
+.forModule {color:#FFF; font-size:14px; font-weight:bold; text-indent:-10px;}
+.forModule a {font-weight:normal; color:-webkit-link; padding-left:0!important;}
+.folder{background: url('../img/folder.png') no-repeat scroll 5px 8px transparent; border-bottom:1px solid #CCC; padding: 0px 0px 0px 16px;}
+.toAlign {padding-left:32px;}
+
+.toAbsolute {position:absolute; left:65px; top:8px;}
+.toIndent {text-indent:-99999px;}
+
+.content {padding:8px 0 0 0; width:24%; float:left;}
+.post, .replies, .post1, .replies1 {float:left; padding:8px 0% 8px; width:25%;}
+.post, .replies, .post1, .replies1 { border-right:1px solid #CCC;}
+.post1, .replies1 {padding:8px 0% 8px;}
+.post span, .post1 span {display:inline-block; width:35px; margin-right:33%;}
+.post .post_start_date_wrraper_input span, .post1 .post_start_date_wrraper_input span, .post .post_end_date_wrraper_input span, .post1 .post_end_date_wrraper_input span {margin-right:12%;}
+.post div, .post1 div {}
+.readOnly {float:left; padding:8px 0% 8px;}
+.replies p, .replies1 p, .readOnly1 p, .readOnly p {text-align:center;}
+.replies p:nth-of-type(1), .replies1 p:nth-of-type(1), .readOnly1 p:nth-of-type(1), .readOnly p:nth-of-type(1), .post .post_start_date_wrraper_label, .post1 .post_start_date_wrraper_label, .post .post_start_date_wrraper_input, .post1 .post_start_date_wrraper_input {margin-bottom:4px;}  
+.readOnly1 {float:left; padding:8px 0 8px;}
+.readOnly1, .readOnly {width:25%;}
+.post1 input, .replies1 input, .readOnly1 input, .post input, .replies input, .readOnly input {width:50%;}
+
+.forControls {padding:15px 0; text-align:right; padding-right:15px;}
+.forControls button {background: none repeat scroll 0 0 #4C79AB; border-radius: 6px; color: #F3F3F3; cursor: pointer; font-size: 1.1em; font-weight: bold; padding: 5px 25px; border:none;}
+
+.singleLi .content{text-indent:-25px;}
+
+/* .......  Common Styling .......... */
+ul.treeview li ul li ul li, ul.treeview > li, ul.treeview li.lastCollapsable ul > li {border-bottom:1px solid #CCC;}
+ul.treeview li.collapsable, ul.treeview li.lastCollapsable ul > li.collapsable {border:none;}
+ul.treeview li > .folder {background-color:#01325B; color:#FFF;}
+ul.treeview li > .toAbsolute a {color:#FFF; background:url('../img/editIcon_white.png') no-repeat center;}
+ul.treeview li ul li > .toAbsolute a {color:#05b;}
+ul.treeview li ul li > .folder {background-color:#F0F0F0; color:#000;}
+
+ul.treeview li ul li ul li, ul.treeview li ul li ul li.last {background-position:-7px 0;}
+.post_start_date_wrraper_input img, .post_end_date_wrraper_input img, .reply_date_wrraper_input img, .read_date_wrraper_input img {position:relative; top:3px; left:3px;}
+
+.backButton-askaquestion {background:#FFF; text-align:right; padding:10px 16px 10px 0;}
+.backButton-askaquestion div {display:inline;}
+.backButton-askaquestion a {text-decoration:none;}
+.user_welcome {background:#FFF; padding:10px 0 15px 16px; border-bottom:1px solid #CCC;}
+.user_welcome h3 {margin:0 0 5px;}
+.user_welcome h3, .user_welcome span {color:#01325B;} 
+.user_welcome span {font-weight:bold;}
+@media only screen and (max-width:480px) {
+.post span, .post1 span {float:left;}
+.post input, .post1 input {float:right;}
+.post span, .post1 span {width:auto;}
+
+}
+.toAlign1{padding-left: 16px;}
+.tobehide{display: none !important;}
+
+
